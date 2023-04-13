@@ -1126,38 +1126,6 @@ input:checked + .toggle-bg {
   z-index: 50;
 }
 
-.col-span-2 {
-  grid-column: span 2 / span 2;
-}
-
-.col-span-4 {
-  grid-column: span 4 / span 4;
-}
-
-.col-start-1 {
-  grid-column-start: 1;
-}
-
-.row-span-1 {
-  grid-row: span 1 / span 1;
-}
-
-.row-start-1 {
-  grid-row-start: 1;
-}
-
-.row-start-2 {
-  grid-row-start: 2;
-}
-
-.row-start-3 {
-  grid-row-start: 3;
-}
-
-.row-start-4 {
-  grid-row-start: 4;
-}
-
 .float-right {
   float: right;
 }
@@ -1449,10 +1417,6 @@ input:checked + .toggle-bg {
   height: 100vh;
 }
 
-.h-80 {
-  height: 20rem;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -1495,10 +1459,6 @@ input:checked + .toggle-bg {
 
 .w-full {
   width: 100%;
-}
-
-.w-auto {
-  width: auto;
 }
 
 .max-w-sm {
@@ -1895,14 +1855,6 @@ input:checked + .toggle-bg {
 
 .grid-cols-7 {
   grid-template-columns: repeat(7, minmax(0, 1fr));
-}
-
-.grid-rows-1 {
-  grid-template-rows: repeat(1, minmax(0, 1fr));
-}
-
-.grid-rows-3 {
-  grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -2859,10 +2811,6 @@ input:checked + .toggle-bg {
   font-weight: 700;
 }
 
-.font-light {
-  font-weight: 300;
-}
-
 .font-medium {
   font-weight: 500;
 }
@@ -2973,11 +2921,6 @@ input:checked + .toggle-bg {
   color: rgb(28 100 242 / var(--tw-text-opacity));
 }
 
-.text-gray-300 {
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
-}
-
 .text-gray-400 {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
@@ -3011,11 +2954,6 @@ input:checked + .toggle-bg {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-yellow-400 {
-  --tw-text-opacity: 1;
-  color: rgb(227 160 8 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -3399,6 +3337,37 @@ input:checked + .toggle-bg {
   content: var(--tw-content);
 }
 
+.card {
+  position: fixed;
+  z-index: 50;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  margin-top: 10px;
+  opacity: 0;
+  display: none;
+}
+
+.card-visible {
+  display: block;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -3659,11 +3628,6 @@ input:checked + .toggle-bg {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
-.dark .dark\:text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
 .dark .dark\:text-gray-800 {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
@@ -3918,15 +3882,6 @@ input:checked + .toggle-bg {
 }
 
 @media (min-width: 1024px) {
-  .lg\:row-start-1 {
-    grid-row-start: 1;
-  }
-
-  .lg\:mx-20 {
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-
   .lg\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -3937,20 +3892,8 @@ input:checked + .toggle-bg {
     margin-bottom: auto;
   }
 
-  .lg\:ml-40 {
-    margin-left: 10rem;
-  }
-
-  .lg\:mr-40 {
-    margin-right: 10rem;
-  }
-
   .lg\:mt-0 {
     margin-top: 0px;
-  }
-
-  .lg\:mt-60 {
-    margin-top: 15rem;
   }
 
   .lg\:flex {
@@ -3969,10 +3912,6 @@ input:checked + .toggle-bg {
     height: 75%;
   }
 
-  .lg\:h-auto {
-    height: auto;
-  }
-
   .lg\:w-1\/2 {
     width: 50%;
   }
@@ -3982,24 +3921,12 @@ input:checked + .toggle-bg {
     width: fit-content;
   }
 
-  .lg\:w-full {
-    width: 100%;
-  }
-
   .lg\:max-w-lg {
     max-width: 32rem;
   }
 
-  .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .lg\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
-  }
-
-  .lg\:grid-rows-1 {
-    grid-template-rows: repeat(1, minmax(0, 1fr));
   }
 
   .lg\:gap-4 {
@@ -4024,10 +3951,6 @@ input:checked + .toggle-bg {
   .lg\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
-  }
-
-  .lg\:pb-60 {
-    padding-bottom: 15rem;
   }
 
   .lg\:text-4xl {
@@ -4066,3 +3989,4 @@ input:checked + .toggle-bg {
     height: 24rem;
   }
 }
+
