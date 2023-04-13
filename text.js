@@ -16,7 +16,7 @@ export const personas = [
         "texto_informativo": "Enrique Prieto de la Rosa, Formado en pintura y dibujo publicitario, grabado artístico y mosaico. Estudios en historia del cine y lenguaje audiovisual. Profesionalmente enfocado en el campo de la salud mental. Practicante de artes marciales chinas, budismo zen soto en el Dojo zen de Sevilla y budismo tibetano Kagyu durante más de treinta años."
     },
     {
-        "nombre": "Rev. Wu Mìng Shakya (OHYL)",
+        "nombre": "Rev. Wu Mìng Shakya ",
         "texto_informativo": " Daniela Londoño Serna, Graduada de la Universidad Nueva Granada en Biología Aplicada - Biología/Ciencias biológicas, general. Bilingüe ingles/español. Docente de bachillerato en Gimnasio Campestre Los Cerezos https://www.linkedin.com/in/daniela-londoño-serna-20aab6129"
     },
     {
@@ -32,7 +32,7 @@ export const personas = [
         "texto_informativo": "Dr. Raul Cordova, Después de un camino tortuoso tratando de dilucidar la esencia de las enseñanzas de Buddha, conocí al maestro Zheng Xian Shakya y comencé en este proyecto del cual al día de hoy sigo aprendiendo. Poder estar en el sitio correcto y en la línea de pensamiento en la cual siempre quise estar no tiene comparación. Pero lo más importante de todo es poder estar aterrizado en la propuesta del Buddha. Me sigo considerando un eterno aprendiz. https://www.linkedin.com/in/dr-raul-c-acosta/"
     },
     {
-        "nombre": "Rev. Huì Zhì Shakya (Nelson Solorio Talavera)",
+        "nombre": "Rev. Huì Zhì Shakya ",
         "texto_informativo": "Nació en Chihuahua, México el 26 de febrero de 1983, es licenciado en literatura (Universidad Autónoma de Chihuahua), maestro en antropología social (Escuela de Antropología e Historia del Norte de México) y doctor en educación, artes y humanidades (UACH). El 6 de enero de 2021 se ordenó como maestro del Dharma, bajo la tutela de la maestra Wu Liang y el maestro Zheng Xian Shakya."
     },
     {
